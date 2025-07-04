@@ -9,7 +9,7 @@
 - **⚡ 极速生成**：只需在变量后输入 `.log` 并按回车，瞬间生成完整的 console.log 语句
 - **🎯 智能识别**：自动识别变量名并生成格式化的日志输出
 - **🔥 即时触发**：支持实时监听，输入即转换
-- **⌨️ 快捷键支持**：`Ctrl+Shift+H` (Windows/Linux) 或 `Cmd+Shift+H` (Mac) 快速生成
+- **⌨️ 快捷键支持**：`Ctrl+Shift+L` (Windows/Linux) 或 `Cmd+Shift+L` (Mac) 快速生成
 - **📝 格式化输出**：生成带有 🚀 标识和变量描述的日志语句
 - **🌈 多语言支持**：完美支持 JavaScript、TypeScript 等语言
 
@@ -39,7 +39,7 @@ code --install-extension akimixu.console-log-generator
 
 ### 方法二：快捷键触发
 1. 将光标放在包含 `.log` 的行上
-2. 按 `Ctrl+Shift+H` (Windows/Linux) 或 `Cmd+Shift+H` (Mac)
+2. 按 `Ctrl+Shift+L` (Windows/Linux) 或 `Cmd+Shift+L` (Mac)
 3. 自动生成对应的 console.log 语句
 
 ## 📖 使用示例

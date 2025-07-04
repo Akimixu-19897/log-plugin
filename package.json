@@ -2,7 +2,7 @@
   "name": "console-log-generator",
   "displayName": "Console Log Generator",
   "description": "快速生成console.log语句的VS Code插件，只需在代码后添加.log即可自动转换为完整的日志输出",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "publisher": "akimixu",
   "icon": "icon.png",
   "keywords": [
@@ -34,14 +34,16 @@
     "commands": [
       {
         "command": "extension.logCompletion",
-        "title": "Log Completion"
+        "title": "生成 Console Log",
+        "category": "Console Log Generator"
       }
     ],
     "keybindings": [
       {
         "command": "extension.logCompletion",
-        "key": "ctrl+shift+h",
-        "mac": "cmd+shift+h"
+        "key": "ctrl+shift+l",
+        "mac": "cmd+shift+l",
+        "when": "editorTextFocus"
       }
     ]
   },
@@ -53,7 +55,12 @@
     "lint": "eslint src --ext ts",
     "test": "vscode-test",
     "package": "pnpm vsce package --no-dependencies",
-    "publish": "pnpm vsce publish --no-dependencies"
+    "package:version": "pnpm version patch --no-git-tag-version && pnpm run package",
+    "publish": "pnpm vsce publish --no-dependencies",
+    "publish:version": "pnpm version patch --no-git-tag-version && pnpm run publish",
+    "version:patch": "pnpm version patch --no-git-tag-version",
+    "version:minor": "pnpm version minor --no-git-tag-version",
+    "version:major": "pnpm version major --no-git-tag-version"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.9",
