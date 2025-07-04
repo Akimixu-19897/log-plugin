@@ -25,10 +25,10 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const assert = __importStar(require("assert"));
 const vscode = __importStar(require("vscode"));
-suite("Console Log Generator Test Suite", () => {
-    vscode.window.showInformationMessage("开始运行 Console Log Generator 测试");
+suite("DotLog Magic Test Suite", () => {
+    vscode.window.showInformationMessage("开始运行 DotLog Magic 测试");
     test("扩展应该能够激活", async () => {
-        const extension = vscode.extensions.getExtension("akimixu.console-log-generator");
+        const extension = vscode.extensions.getExtension("akimixu.dotlog-magic");
         assert.ok(extension, "扩展应该存在");
         if (!extension.isActive) {
             await extension.activate();
