@@ -1,9 +1,25 @@
-# Change Log
+# 更新日志
 
-All notable changes to the "log-plugin" extension will be documented in this file.
+Console Log Generator 扩展的所有重要更改都将记录在此文件中。
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.0.1] - 2025-07-04
 
-## [Unreleased]
+### 🆕 新增
+- 重新设计插件名称和标识
+- 完善插件描述和关键词
+- 优化 README 文档，添加详细使用说明
+- 添加更完整的功能特性描述
 
-- Initial release
+### 🔧 改进
+- 更新插件分类为 Snippets 和 Other
+- 添加中英文关键词支持
+- 优化插件在扩展市场的展示效果
+
+## [1.0.0] - 2025-07-03
+
+### 🎉 首次发布
+- 实现 `.log` 后缀自动转换功能
+- 支持快捷键 `Ctrl+Shift+H` / `Cmd+Shift+H`
+- 自动生成带有 🚀 标识的格式化 console.log 语句
+- 支持实时监听文档变化
+- 支持 JavaScript、TypeScript 等多种语言
