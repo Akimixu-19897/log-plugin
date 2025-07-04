@@ -2,7 +2,12 @@ import * as vscode from "vscode";
 
 /**
  * 生成console.log语句
- * @param variableName 变量名
+ * @param variableNexport function activate(coexport function deactivate() {
+  console.log('DotLog Magic 扩展已停用');
+}xt: vscode.ExtensionContext) {
+  console.log('DotLog Magic 扩展已激活');
+
+  // 注册命令变量名
  * @returns 格式化的console.log语句
  */
 function generateConsoleLog(variableName: string): string {

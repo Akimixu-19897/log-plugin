@@ -1,7 +1,7 @@
 {
-  "name": "console-log-generator",
-  "displayName": "Console Log Generator",
-  "description": "快速生成console.log语句的VS Code插件，只需在代码后添加.log即可自动转换为完整的日志输出",
+  "name": "dotlog-magic",
+  "displayName": "DotLog Magic",
+  "description": "神奇的.log转换器 - 只需在变量后添加.log即可瞬间生成console.log语句，让调试变得简单而高效",
   "version": "1.0.1",
   "publisher": "akimixu",
   "icon": "icon.png",
@@ -35,7 +35,7 @@
       {
         "command": "extension.logCompletion",
         "title": "生成 Console Log",
-        "category": "Console Log Generator"
+        "category": "DotLog Magic"
       }
     ],
     "keybindings": [

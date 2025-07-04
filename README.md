@@ -1,8 +1,8 @@
-# Console Log Generator
+# DotLog Magic
 
-[![Console Log Generator](https://sfile.chatglm.cn/pic_cache/672adc067c19b2b7e021680c/c559c5.png)](https://sfile.chatglm.cn/pic_cache/672adc067c19b2b7e021680c/c559c5.png)
+[![DotLog Magic](https://sfile.chatglm.cn/pic_cache/672adc067c19b2b7e021680c/c559c5.png)](https://sfile.chatglm.cn/pic_cache/672adc067c19b2b7e021680c/c559c5.png)
 
-一个强大的 Visual Studio Code 插件，用于快速生成 `console.log` 语句，提升开发调试效率。
+一个神奇的 Visual Studio Code 插件，让你只需在变量后添加 `.log` 即可瞬间生成 `console.log` 语句，让调试变得简单而高效。
 
 ## 🚀 功能特性
 
@@ -18,12 +18,12 @@
 ### 方式一：VS Code 扩展市场
 1. 打开 VS Code
 2. 按 `Ctrl+Shift+X` 打开扩展面板
-3. 搜索 `Console Log Generator`
+3. 搜索 `DotLog Magic`
 4. 点击安装
 
 ### 方式二：命令行安装
 ```bash
-code --install-extension akimixu.console-log-generator
+code --install-extension akimixu.dotlog-magic
 ```
 
 ## 🎮 使用方法
